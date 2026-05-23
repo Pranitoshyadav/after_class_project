@@ -1,0 +1,12 @@
+# Program to multiply all elements in a tuple
+
+def multiply_tuple_elements(t):
+    result = 1
+    for num in t:
+        result *= num
+    return result
+
+# Example usage
+numbers = (2, 3, 4, 5)
+print("Tuple:", numbers)
+print("Product of elements:", multiply_tuple_elements(numbers))
